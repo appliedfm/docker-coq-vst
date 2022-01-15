@@ -4,7 +4,7 @@ Docker images of the Coq proof assistant, with compcert and VST pre-installed.
 
 Based on [docker-coq](https://github.com/coq-community/docker-coq). Compatible with [docker-coq-action](https://github.com/coq-community/docker-coq-action#custom_image).
 
-Hosted on [docker hub](https://hub.docker.com/repository/docker/tcarstens/coq-vst).
+Hosted on [docker hub](https://hub.docker.com/r/tcarstens/coq-vst/tags).
 
 ## Building
 
