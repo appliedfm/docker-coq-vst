@@ -10,6 +10,7 @@ ENV VST_VERSION=${VST_VERSION}
 # hadolint ignore=SC2046
 RUN set -x \
   && sudo apt-get update -y -q \
+  && sudo apt-get install -y -q tree \
   && sudo apt-get install -y -q gcc-multilib \
   && eval $(opam env "--switch=${COMPILER}" --set-switch) \
   && opam pin add -n -k version coq-compcert ${COMPCERT_VERSION} \
