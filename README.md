@@ -1,5 +1,7 @@
 # docker-coq-vst
 
+![GitHub](https://img.shields.io/github/license/appliedfm/docker-coq-vst)
+
 Docker images of the Coq proof assistant, with compcert and VST pre-installed.
 
 Based on [docker-coq](https://github.com/coq-community/docker-coq). Compatible with [docker-coq-action](https://github.com/coq-community/docker-coq-action#custom_image).
@@ -27,3 +29,7 @@ $ build__coq_compcert       "8.14.1-ocaml-4.12.0-flambda" "3.9"
 $ build__coq_vst            "8.14.1-ocaml-4.12.0-flambda" "3.9" "2.8"
 $ build__coq_vst_certigraph "8.14.1-ocaml-4.12.0-flambda" "3.9" "2.8"
 ```
+
+#
+
+[![applied.fm](https://img.shields.io/badge/-applied.fm-orchid)](https://applied.fm)
