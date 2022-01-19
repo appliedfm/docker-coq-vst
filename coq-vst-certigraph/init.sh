@@ -2,7 +2,8 @@
 
 eval $(opam env "--switch=${COMPILER}" --set-switch)
 git clone https://github.com/Salamari/CertiGraph.git ~/CertiGraph
-opam install -y -v -j "${NJOBS}" ~/CertiGraph/coq-certigraph.opam ~/CertiGraph/coq-certigraph-32.opam
+opam pin -n -y ~/CertiGraph
+opam install -y -v -j "${NJOBS}" coq-certigraph coq-certigraph-32
 rm -rf ~/CertiGraph
 opam clean -a -c -s --logs
 opam config list && opam list
