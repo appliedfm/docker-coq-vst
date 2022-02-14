@@ -1,4 +1,5 @@
-ARG BASE_TAG="8.14-ocaml-4.11-flambda"
+# Example: BASE_TAG="8.14-ocaml-4.11-flambda"
+ARG BASE_TAG=""
 FROM coqorg/coq:${BASE_TAG}
 
 COPY init.sh init.sh

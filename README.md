@@ -24,10 +24,10 @@ We provide pre-built images on Docker Hub, which means you probably do not need 
 
 ```console
 $ source build.sh
-$ build__coq                "8.14.1-ocaml-4.12.0-flambda"
-$ build__coq_compcert       "8.14.1-ocaml-4.12.0-flambda" "3.9"
-$ build__coq_vst            "8.14.1-ocaml-4.12.0-flambda" "3.9" "2.8"
-$ build__coq_vst_certigraph "8.14.1-ocaml-4.12.0-flambda" "3.9" "2.8"
+$ build__coq                "8.15.0"
+$ build__coq_compcert       "8.15.0" "3.10"
+$ build__coq_vst            "8.15.0" "3.10" "2.9"
+$ build__coq_vst_certigraph "8.15.0" "3.10" "2.9"
 ```
 
 #

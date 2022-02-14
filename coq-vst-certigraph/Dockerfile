@@ -1,6 +1,9 @@
-ARG BASE_TAG="8.14-ocaml-4.11-flambda--compcert-3.9--vst-2.8"
-ARG COMPCERT_VERSION="3.9"
-ARG VST_VERSION="2.8"
+# Example: BASE_TAG="8.14-ocaml-4.11-flambda--compcert-3.9--vst-2.8"
+ARG BASE_TAG=""
+# Example: COMPCERT_VERSION="3.9"
+ARG COMPCERT_VERSION=""
+# Example: VST_VERSION="2.8"
+ARG VST_VERSION=""
 FROM appliedfm/coq-vst:${BASE_TAG}--compcert-${COMPCERT_VERSION}--vst-${VST_VERSION}
 
 COPY init.sh init.sh
