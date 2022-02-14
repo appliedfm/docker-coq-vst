@@ -25,6 +25,7 @@ We provide pre-built images on Docker Hub, which means you probably do not need 
 ```console
 $ source build.sh
 $ build__coq                "8.15.0"
+$ docker push appliedfm/coq:8.15.0
 $ build__coq_compcert       "8.15.0" "3.10"
 $ build__coq_vst            "8.15.0" "3.10" "2.9"
 $ build__coq_vst_certigraph "8.15.0" "3.10" "2.9"
