@@ -1,0 +1,23 @@
+build__coq                "8.15.0-ocaml-4.12.0-flambda"
+docker push appliedfm/coq:8.15.0-ocaml-4.12.0-flambda
+build__coq_compcert       "8.15.0-ocaml-4.12.0-flambda" "3.10"
+docker push appliedfm/coq-compcert:8.15.0-ocaml-4.12.0-flambda--compcert-3.10
+build__coq_vst            "8.15.0-ocaml-4.12.0-flambda" "3.10" "2.9"
+docker push appliedfm/coq-vst:8.15.0-ocaml-4.12.0-flambda--vst-2.9--compcert-3.10
+# build__coq_vst_certigraph "8.15.0-ocaml-4.12.0-flambda" "3.10" "2.9"
+
+build__coq                "8.14.1-ocaml-4.12.0-flambda"
+docker push appliedfm/coq:8.14.1-ocaml-4.12.0-flambda
+build__coq_compcert       "8.14.1-ocaml-4.12.0-flambda" "3.9"
+docker push appliedfm/coq-compcert:8.14.1-ocaml-4.12.0-flambda--compcert-3.9
+build__coq_vst            "8.14.1-ocaml-4.12.0-flambda" "3.9" "2.8"
+docker push appliedfm/coq-vst:8.14.1-ocaml-4.12.0-flambda--vst-2.8--compcert-3.9
+# build__coq_vst_certigraph "8.14.1-ocaml-4.12.0-flambda" "3.9" "2.8"
+
+build__coq                "8.13.2-ocaml-4.12.0-flambda"
+docker push appliedfm/coq:8.13.2-ocaml-4.12.0-flambda
+build__coq_compcert       "8.13.2-ocaml-4.12.0-flambda" "3.9"
+docker push appliedfm/coq-compcert:8.13.2-ocaml-4.12.0-flambda--compcert-3.9
+build__coq_vst            "8.13.2-ocaml-4.12.0-flambda" "3.9" "2.8"
+docker push appliedfm/coq-vst:8.13.2-ocaml-4.12.0-flambda--vst-2.8--compcert-3.9
+# build__coq_vst_certigraph "8.13.2-ocaml-4.12.0-flambda" "3.9" "2.8"
